@@ -27,11 +27,19 @@ div.res{
 
 div.pad{
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: pink;
+}
+
+div.num-pad{
+    display: flex;
+    background-color: beige;
     width: 300px;
-    height: 400px;
+    height: 380px;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -43,3 +51,9 @@ div.button{
     border-radius: 3px;
 }
 
+div.oper{
+    display: flex;
+    background-color: rgb(220, 240, 245);
+    padding: 35px;
+    height: 310px;
+}
