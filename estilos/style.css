@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    width: 500px;
+    height: 600px;
+    background-color: rgb(165, 165, 165);
+    margin: 80px auto;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+div.res{
+    width: 370px;
+    height: 18px;
+    padding: 45px;
+    margin: 18px auto;
+    background-color: #a05757;
+    border-radius: 4px;
+}
+
+div.pad{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+div.button{
+    padding: 35px;
+    background-color: aqua;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
