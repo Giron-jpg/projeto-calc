@@ -13,22 +13,25 @@ main{
     background-color: rgb(165, 165, 165);
     margin: 80px auto;
     border-radius: 12px;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 div.res{
-    width: 370px;
-    height: 18px;
-    padding: 45px;
-    margin: 18px auto;
+    display: flex;
+    width: 450px;
+    height: 120px;
+    align-items: center;
+    justify-content: end;
+    margin: 24px auto 12px auto;
     background-color: #a05757;
     border-radius: 4px;
 }
 
 div.pad{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
+    width: 450px;
+    margin: auto;
+    justify-content: space-around;
     background-color: pink;
 }
 
@@ -43,17 +46,25 @@ div.num-pad{
 
 }
 
-
 div.button{
-    padding: 35px;
+    display: flex;
+    width: 80px;
+    height: 80px;
     background-color: aqua;
-    margin-left: 8px;
-    border-radius: 3px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
 }
 
 div.oper{
     display: flex;
+    height: 380px;
+    width: 80px;
     background-color: rgb(220, 240, 245);
-    padding: 35px;
-    height: 310px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div.button:active{
+    background-color: rgb(2, 138, 138);
 }
