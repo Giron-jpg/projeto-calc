@@ -1,5 +1,5 @@
 function mostravalor(){
-    addEventListener
+    addEventListener('click', )
 }
 
 
