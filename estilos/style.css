@@ -58,7 +58,7 @@ div.button{
 
 div.oper{
     display: flex;
-    height: 380px;
+    height: 425px;
     width: 80px;
     background-color: rgb(220, 240, 245);
     flex-direction: column;

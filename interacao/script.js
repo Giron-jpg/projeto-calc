@@ -1,5 +1,11 @@
+
+
 function mostravalor(){
-    addEventListener('click', )
+    let res = document.getElementById('res')
+    let valor = document.getElementsByClassName('button')
+    valor.addEventListener('click', ()=>{
+        res.innerHTML = ''
+    })
 }
 
 
